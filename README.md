@@ -9,6 +9,7 @@ RTL 설계부터 UVM 검증, FPGA 구현, MCU 펌웨어까지 하드웨어와 �
 |---|---|
 | HDL / 검증 | SystemVerilog, Verilog, UVM |
 | 임베디드 | C, STM32 HAL, I2C / UART / PWM / EXTI / Timer |
+| AI / Vision | Python, OpenCV, TFLite (LiteRT) |
 | Tools | Synopsys VCS · Verdi, Xilinx Vivado, STM32CubeIDE, Git |
 | Board | Digilent Basys3 (Artix-7), STM32 NUCLEO-F411RE |
 
@@ -28,6 +29,12 @@ RTL 설계부터 UVM 검증, FPGA 구현, MCU 펌웨어까지 하드웨어와 �
 |---|---|---|
 | [**STM32 Smart Watch**](https://github.com/wjdaudgns120-max/stm32_smartwatch) | 버튼 하나로 시계·온습도·거리·스톱워치를 전환하는 스마트 워치, App→Service→Driver 계층 구조 | STM32 HAL · I2C LCD · RTC · 이벤트 큐 |
 | [**STM32 Analog Clock**](https://github.com/wjdaudgns120-max/stm32_analog_timeclock_project) | 스텝 모터 3개로 시·분·초침을 구동하는 아날로그 시계, 타이머 인터럽트 기반 목표 추종과 탈조 해결 | Step Motor · TIM 인터럽트 · RTC · 4인 팀 |
+
+### AI / Vision
+
+| 프로젝트 | 설명 | 핵심 |
+|---|---|---|
+| [**CNN RPS Game**](https://github.com/wjdaudgns120-max/CNN_RPSGAME_Project) | 웹캠으로 두 사람의 손을 탐지해 가위바위보 승패를 실시간 판정, YOLO 출력 디코딩·NMS 직접 구현 | TFLite · OpenCV · Object Detection |
 
 ## 📫 Contact
 
