@@ -9,7 +9,7 @@ RTL 설계부터 UVM 검증, FPGA 구현, MCU 펌웨어까지 하드웨어와 �
 |---|---|
 | HDL / 검증 | SystemVerilog, Verilog, UVM |
 | 임베디드 | C, STM32 HAL, I2C / UART / PWM / EXTI / Timer |
-| AI / Vision | Python, OpenCV, TFLite (LiteRT) |
+| AI / Vision | Python, YOLO11, OpenCV, TFLite (LiteRT) |
 | Tools | Synopsys VCS · Verdi, Xilinx Vivado, STM32CubeIDE, Git |
 | Board | Digilent Basys3 (Artix-7), STM32 NUCLEO-F411RE |
 
@@ -34,7 +34,7 @@ RTL 설계부터 UVM 검증, FPGA 구현, MCU 펌웨어까지 하드웨어와 �
 
 | 프로젝트 | 설명 | 핵심 |
 |---|---|---|
-| [**CNN RPS Game**](https://github.com/wjdaudgns120-max/CNN_RPSGAME_Project) | 웹캠으로 두 사람의 손을 탐지해 가위바위보 승패를 실시간 판정, YOLO 출력 디코딩·NMS 직접 구현 | TFLite · OpenCV · Object Detection |
+| [**CNN RPS Game**](https://github.com/wjdaudgns120-max/CNN_RPSGAME_Project) | 웹캠으로 두 사람의 손을 탐지해 가위바위보 승패를 실시간 판정, YOLO 출력 디코딩·NMS 직접 구현 | YOLO11n · TFLite · OpenCV |
 
 ## 📫 Contact
 
