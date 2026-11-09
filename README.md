@@ -37,7 +37,7 @@ RTL 설계부터 UVM 검증, FPGA 구현, MCU 펌웨어까지 하드웨어와 �
 | 프로젝트 | 설명 | 핵심 |
 |---|---|---|
 | [**CNN RPS Game**](https://github.com/wjdaudgns120-max/CNN_RPSGAME_Project) | 웹캠으로 두 사람의 손을 탐지해 가위바위보 승패를 실시간 판정, YOLO 출력 디코딩·NMS 직접 구현 | YOLO11n · TFLite · OpenCV |
-| [**CNN Door Counter (Team)**](https://github.com/wjdaudgns120-max/CNN_Team_Project) | 라즈베리파이 4대로 출입문 영상을 분산 처리해 드나드는 사람 수를 실시간으로 세는 시스템. 카메라 Pi가 프레임을 작업자 Pi 2대에 부하 분산하고, 결과를 모아 추적 · IN/OUT 판정 · 웹으로 표시 | YOLO26s-seg (NCNN) · ByteTrack · TCP 분산 처리 · Flask · 팀 프로젝트 |
+| [**CNN Door Counter (Team)**](https://github.com/wjdaudgns120-max/CNN_Team_Project) | 라즈베리파이 4대로 출입문 영상을 분산 처리해 드나드는 사람 수를 실시간으로 세는 시스템. 카메라 Pi가 프레임을 작업자 Pi 2대에 부하 분산하고, 결과를 모아 추적 · IN/OUT 판정 · 웹으로 표시 | YOLO26s-seg (NCNN) · ByteTrack · TCP 분산 처리 · Flask · 4인 팀 |
 
 ## 📫 Contact
 
