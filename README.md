@@ -29,6 +29,7 @@ RTL 설계부터 UVM 검증, FPGA 구현, MCU 펌웨어까지 하드웨어와 �
 |---|---|---|
 | [**STM32 Smart Watch**](https://github.com/wjdaudgns120-max/stm32_smartwatch) | 버튼 하나로 시계·온습도·거리·스톱워치를 전환하는 스마트 워치, App→Service→Driver 계층 구조 | STM32 HAL · I2C LCD · RTC · 이벤트 큐 |
 | [**STM32 Analog Clock**](https://github.com/wjdaudgns120-max/stm32_analog_timeclock_project) | 스텝 모터 3개로 시·분·초침을 구동하는 아날로그 시계, 타이머 인터럽트 기반 목표 추종과 탈조 해결 | Step Motor · TIM 인터럽트 · RTC · 4인 팀 |
+| [**Card-Access Hotel Elevator**](https://github.com/wjdaudgns120-max/STM32_Elevator_Project) | 카드 권한으로 갈 수 있는 층을 제한하는 3층 호텔 엘리베이터. SCAN 스케줄러와 2-process FSM으로 운행하고, Python GUI와 8바이트 UART 프레임으로 문 핸드셰이크 · 응답 검증 | SCAN 스케줄러 · FSM · UART 프로토콜 · Python GUI · 2인 팀 |
 
 ### AI / Vision
 
